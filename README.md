@@ -4,7 +4,7 @@ A minimal javascript implementation of trie for autocompletion using a dictionar
 ![screenshot](./ss.png)
 
 
-Live [demo](https://chaitya62.github.io/TrieJS/)
+Live [demo](https://chaitya62.github.io/TrieJS/index.html)
 
 
 # Author
