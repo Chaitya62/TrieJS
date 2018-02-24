@@ -1,0 +1,71 @@
+body{
+	display: block;
+	text-align: center;
+	background: rgba(0, 0, 1, 0.1);
+
+}
+
+h1{
+	font-family: verdana;
+	font-style: normal;
+	font-weight: 10px;
+	font-size: 65px;
+	color: darkblue;
+}
+
+.container{
+	display: inline-block;
+	margin-top: 5%;
+
+}
+
+input[type='text']{
+	width: 300px;
+	height: 20px;
+	padding: 10px;
+}
+
+input[type='submit']{
+	width: 40px;
+	height: 35px;
+	padding: 5px;
+}
+
+ul#sugList{
+	list-style-type: none;
+	text-align: left;
+	margin: 0px;
+	padding:0px;
+}
+
+ul#sugList > li{
+	display: inline-block;
+	width:301px;
+	background: rgba(0,0,0,0.10);
+	color: black;
+	padding: 10px;
+	cursor: pointer;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 0px 1px 1px rgba(0, 0,0, 0.4);
+}
+
+ul#sugList > li:hover{
+	background: rgba(0,0,0,0.3)
+}
+
+.footer{
+	position: fixed;
+	
+	bottom: 0px;
+	right: 10px;
+	text-align: right;
+
+}
+
+.footer-text{
+	font-size: 24px;
+}
+
+#suggestions{
+
+}
